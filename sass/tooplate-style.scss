@@ -132,7 +132,7 @@ b, strong {
 
 // ANIMATED TEXT
 .animated {
-    position: relative;
+    position: absolute;
 }
 
 .animated-info {
@@ -592,7 +592,7 @@ b, strong {
 	.navbar-collapse {
 		background: $text-white;
 		text-align: center;
-		padding-bottom: 20px;
+		padding-bottom: 30px;
 	}
 
 	.navbar-expand-sm .navbar-nav .nav-link {
@@ -604,7 +604,7 @@ b, strong {
 @media (max-width: 580px) {
 
 	.animated-item {
-		font-size: 24px;
+		font-size: 80px;
 	}
 
 	.custom-btn-group {
