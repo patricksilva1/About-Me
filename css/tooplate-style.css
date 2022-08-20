@@ -759,6 +759,7 @@ b, strong {
   }
 
 }
+
 /*Fade up*/
 [data-aos=fade-up] {
   transform: translateY(100px);
