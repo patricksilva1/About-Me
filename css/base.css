@@ -1,53 +1,12 @@
-/* =================================================================== 
- *
- *  Epitome Base Stylesheet
- *  Template Ver. 1.0.0
- *  04-22-2019
- *  ------------------------------------------------------------------
- *
- *  TOC:
- *  # imports
- *  # normalize
- *  # basic/base setup styles
- *	# grid v2 
- *		## medium screen devices
- *		## tablets
- *		## mobile devices
- *		## small mobile devices <= 400px	
- *	# block grids
- *		## block grids - medium screen devices
- *		## block grids - tablets
- *		## block grids - mobile devices
- *		## block grids - small mobile devices <= 400px
- *	# MISC
- *
- * =================================================================== */
 
-
-/* ===================================================================
- * # imports 
- *
- * ------------------------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,500|Lora:400,400i,700,700i|Roboto:300,400,500,600,700");
 @import url("font-awesome/css/fontawesome-all.css");
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,700');
 
-
-/* ==========================================================================
- * # normalize
- * normalize.css v8.0.1 | MIT License |
- * github.com/necolas/normalize.css
- *
- * -------------------------------------------------------------------------- */
-
-/* ------------------------------------------------------------------- 
- * ## document
- * ------------------------------------------------------------------- */
-
-/* 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.*/
+ 
 html {
 	line-height: 1.15;  /* 1 */
-	-webkit-text-size-adjust: 100%;  /* 2 */
+	-webkit-text-size-adjust: 200%;  /* 2 */
 }
 
 /* ------------------------------------------------------------------- 
@@ -66,8 +25,9 @@ main {
 
 /* Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari. */
-h1 {
-	font-size: 2em;
+
+ h1 {
+	font-size: 3em;
 	margin: 0.67em 0;
 }
 
@@ -87,7 +47,7 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers. */
 pre {
 	font-family: monospace, monospace;  /* 1 */
-	font-size: 1em;  /* 2 */
+	font-size: 2em;  /* 2 */
 }
 
 /* ------------------------------------------------------------------- 
@@ -124,14 +84,14 @@ samp {
 
 /* Add the correct font size in all browsers. */
 small {
-	font-size: 80%;
+	font-size: 100%;
 }
 
 /* Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers. */
 sub,
 sup {
-	font-size: 75%;
+	font-size: 120%;
 	line-height: 0;
 	position: relative;
 	vertical-align: baseline;
@@ -166,7 +126,7 @@ optgroup,
 select,
 textarea {
 	font-family: inherit;  /* 1 */
-	font-size: 100%;  /* 1 */
+	font-size: 200%;  /* 1 */
 	line-height: 1.15;  /* 1 */
 	margin: 0;  /* 2 */
 }
@@ -310,7 +270,7 @@ template {
  *
  * ------------------------------------------------------------------- */
 html {
-	font-size: 62.5%;
+	font-size: 95%;
 	box-sizing: border-box;
 }
 
@@ -1306,7 +1266,7 @@ textarea {
 }
 
 .timeline__header .timeline__timeframe,
-.timeline__header h5 {
+.timeline__header2 h5 {
   font-family: "Roboto", sans-serif;
 }
 

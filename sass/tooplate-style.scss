@@ -132,7 +132,7 @@ b, strong {
 
 // ANIMATED TEXT
 .animated {
-    position: absolute;
+    position: relative;
 }
 
 .animated-info {
@@ -140,7 +140,7 @@ b, strong {
     vertical-align: top;
     margin-top: 10px;
     width: 250px;
-    position: relative;
+    position: absolute;
 }
 
 .animated-item {
@@ -148,12 +148,12 @@ b, strong {
 }
 
 .animated-item {
-    font-size: 32px;
+    font-size: 80px;
     line-height: inherit;
     display: block;
     opacity: 0;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     top: 0;
     right: 0;
     left: 0;
@@ -553,13 +553,12 @@ b, strong {
   	}
 }
 
-
 // GOOGLE MAP
 .google-map {
 	iframe {
 		width: 100%;
 	}
-}
+} 
 
 
 // CONTACT FORM
@@ -666,6 +665,7 @@ b, strong {
 
 	.animated-item {
 		font-size: 28px;
+		align-items: baseline;
 	}
 
 	.navbar-collapse {
@@ -717,7 +717,7 @@ b, strong {
 	}
 
 	.full-screen {
-		padding: 4rem 0;
+		padding: 8rem 0;
 	}
 
 	.mobile-block {
